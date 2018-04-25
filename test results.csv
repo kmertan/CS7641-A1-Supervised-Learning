@@ -1,0 +1,21 @@
+DT,adult,0.5093692291731508,{'DT__alpha': 0.01, 'DT__class_weight': 'balanced', 'DT__criterion': 'entropy'}
+KNN,adult,0.5084894698620189,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 49, 'KNN__weights': 'uniform'}
+KNN,adult,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+KNN,adult,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+KNN,adult,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+KNN,adult,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+KNN,adult,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+KNN,adult,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+SVM_RBF,adult,0.5355887540201266,{'SVM__alpha': 0.001, 'SVM__gamma_frac': 1.0, 'SVM__n_iter': 1214}
+Boost,adult,0.5504336549434589,{'Boost__base_estimator__alpha': 0.0316227766016838, 'Boost__n_estimators': 10}
+Boost,adult,0.5504336549434589,{'Boost__base_estimator__alpha': 0.0316227766016838, 'Boost__n_estimators': 10}
+Boost,adult,0.5504336549434589,{'Boost__base_estimator__alpha': 0.0316227766016838, 'Boost__n_estimators': 10}
+ANN,adult,0.3802106027596223,{'MLP__activation': 'relu', 'MLP__alpha': 0.031622776601683791, 'MLP__hidden_layer_sizes': (12,)}
+SVM_RBF,adult,0.5355887540201266,{'SVM__alpha': 0.001, 'SVM__gamma_frac': 1.0, 'SVM__n_iter': 1214}
+DT,adult,0.6664679925549489,{'DT__alpha': 0, 'DT__class_weight': 'balanced', 'DT__criterion': 'entropy'}
+Boost,adult,0.6863249471945122,{'Boost__base_estimator__alpha': 0.1, 'Boost__n_estimators': 20}
+DT,adult,0.675549138006476,{'DT__alpha': 0.0316227766016838, 'DT__class_weight': 'balanced', 'DT__criterion': 'gini'}
+ANN,adult,0.696733300828864,{'MLP__activation': 'relu', 'MLP__alpha': 0.001, 'MLP__hidden_layer_sizes': (60, 60, 60)}
+Boost,adult,0.6911137781444948,{'Boost__base_estimator__alpha': 0.1, 'Boost__n_estimators': 10}
+KNN,adult,0.6729237770193403,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 25, 'KNN__weights': 'uniform'}
+SVM_RBF,adult,0.67184237832702,{'SVM__alpha': 0.001, 'SVM__gamma_frac': 0.40000000000000002, 'SVM__n_iter': 949}

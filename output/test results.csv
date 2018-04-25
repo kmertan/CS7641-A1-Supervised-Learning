@@ -1,0 +1,12 @@
+ANN,contra,0.3802106027596223,{'MLP__activation': 'relu', 'MLP__alpha': 0.031622776601683791, 'MLP__hidden_layer_sizes': (12,)}
+ANN,cancer,0.9486943164362521,{'MLP__activation': 'relu', 'MLP__alpha': 3.1622776601683795, 'MLP__hidden_layer_sizes': (18,)}
+DT,cancer,0.9600614439324119,{'DT__alpha': 0, 'DT__class_weight': 'balanced', 'DT__criterion': 'gini'}
+DT,contra,0.5102987861811391,{'DT__alpha': 0.01, 'DT__class_weight': 'balanced', 'DT__criterion': 'gini'}
+KNN,cancer,0.966282642089094,{'KNN__metric': 'euclidean', 'KNN__n_neighbors': 16, 'KNN__weights': 'uniform'}
+KNN,contra,0.4860265587716568,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 43, 'KNN__weights': 'uniform'}
+Boost,cancer,0.966282642089094,{'Boost__base_estimator__alpha': 0.0316227766016838, 'Boost__n_estimators': 5}
+Boost,contra,0.5504336549434589,{'Boost__base_estimator__alpha': 0.0316227766016838, 'Boost__n_estimators': 10}
+SVM_Lin,cancer,0.966282642089094,{'SVM__alpha': 0.10000000000000001, 'SVM__n_iter': 3230}
+SVM_Lin,contra,0.5306401078950099,{'SVM__alpha': 0.0001, 'SVM__n_iter': 1214}
+SVM_RBF,cancer,0.974347158218126,{'SVM__alpha': 0.0031622776601683794, 'SVM__gamma_frac': 0.75000000000000022, 'SVM__n_iter': 3230}
+SVM_RBF,contra,0.5355887540201266,{'SVM__alpha': 0.001, 'SVM__gamma_frac': 1.0, 'SVM__n_iter': 1214}
